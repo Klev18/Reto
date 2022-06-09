@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comisiones</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fee.css">
+</head>
+<body>
+  <header>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./cal.html">Calculadora</a></li>
+                <li><a href="./comis.html">Comisiones</a></li>
+                <li><a href="./form.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<br>
+    <section class="comisiones" id="comisiones">
+        <h1>Calculadora de comisiones</h1>
+        <form name="calcular">
+            <table class="tabla">
+              <caption>Calculador de Tarifas</caption>
+              <div>
+                <td>Monto de su pago:</td>
+                <td><input type="text" name="monto" size="14" maxlength="200"></td>
+              </div>
+              <div>
+                <td colspan="2" align="justify"><input class="button" type="button" value="Calcular" onclick="calcula()"></td>
+              </div>
+              <tr>
+                <td>Porcentaje 1%:</td>
+                <td colspan="4" name="tarifa" id="tarifa"></td>
+            </tr>
+              <div>
+                <td>Monto a pagar:</td>
+                <td colspan="4" name="tarifatotal" id="total"></td>
+              </div>
+            </table>
+            <p>Al recargar con tarjeta de crédito o débito el costo es tan solo 1% + ITBMS sobre el monto de tu recarga.<br> Ejemplo: si quieres recargar $100 + 1% comisión + 0.07 ITBMS = Dólares 101.07. </p>
+          </form>
+    </section> 
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./cal.html">Calculadora</a></li>
+                    <li><a href="./comis.html">Comisiones</a></li>
+                    <li><a href="./form.html">Formulario</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br><br><br>
+    <h1>Formulario</h1>
+    <section class="formulario" id="formulario">
+        <form name="val">
+            <table class="validacion">
+                <tr>
+                    <td>Nombre: </td>
+                    <td><input type="text" id="nombre" size="25" maxlength="100" placeholder="Kleivin Rodriguez"></td>
+                </tr>
+                <tr>
+                    <td>Telefono: </td>
+                    <td><input type="text" id="telefono" size="25" maxlength="14" placeholder="0412-999-99-99"></td>
+                </tr>
+                <tr>
+                    <td>Correo: </td>
+                    <td><input type="text" id="correo" size="25" maxlength="100" placeholder="Kleivin_j@hotmail.com"></td>
+                </tr>
+                <tr>
+                    <td>Cedula:</td>
+                    <td><input type="text" id="cedula" size="25" maxlength="10" placeholder="V-30730304"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="button" value="Enviar"  onclick=validar_envio()></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.tabla{
+    display:block;
+    margin:auto;
+    text-align:start;
+    padding: 40px;
+    background-color: beige;
+    width: 500px;
+    border-radius: 20px ;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+  }

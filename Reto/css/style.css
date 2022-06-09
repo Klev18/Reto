@@ -1,0 +1,50 @@
+body{
+    background-color:aquamarine;
+    font-weight: bold;
+}
+header{
+    background-color: black;
+    width: 100%;
+    clear: both;
+    content:"";
+    display: table;
+    position:fixed;
+    border-radius: 20px;
+}
+h1{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10%;
+}
+p{
+    text-align: center;
+    font-size:large;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+nav{
+    float: left;
+}
+nav ul li{
+    list-style:none;
+    margin-right: 100px;
+    padding: 25px;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#inicio,#formulario,#calculadora,#comisiones{
+    margin-top: 5%;
+}
+img{
+    width:500px;
+    height: 325px;
+    margin-left: 33%;
+}
